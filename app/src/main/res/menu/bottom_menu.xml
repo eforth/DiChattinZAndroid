@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home_fragment"
+        android:icon="@drawable/dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/add_post_fragment"
+        android:icon="@drawable/add"
+        android:title="@string/add"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/account_fragment"
+        android:icon="@drawable/account"
+        android:title="@string/account"
+        app:showAsAction="ifRoom"/>
+</menu>
